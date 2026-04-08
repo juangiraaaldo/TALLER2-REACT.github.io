@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/juangiraaaldo/Taller2-React.github.io.git",
+  "homepage": "https://github.com/juangiraaaldo/TALLER2-REACT.github.io.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

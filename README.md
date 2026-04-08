@@ -58,6 +58,10 @@ MyFirstApp/
 │       ├── PantallaGamer.png
 │       └── SillaGamer.png
 |
+├── shared/
+│    └── css/
+│         └── style.css
+|
 ├── src/
 │   ├── articles/
 │   │   ├── components/

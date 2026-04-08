@@ -1,10 +1,10 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-secondary" >
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
 
                     <NavLink className="navbar-brand" to="/" end>Carrito de compras</NavLink>
@@ -35,7 +35,7 @@ export const Header = () => {
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
 
-                            <button className="btn btn-outline-light" type="button">Search</button>
+                            <button className="btn btn-outline-light" id='SearchBtn' type="button">Search</button>
                         </form>
                     </div>
                 </div>

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <>
-      <footer className='py-3 my-4'>
-        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+      <footer className='py-3 mt-auto bg-dark'>
+        <ul className="nav justify-content-center border-bottom pb-3 mb-3 flex-column flex-md-row align-items-center">
           <li className="nav-item">
             <Link to="/" className="nav-link px-2 text-body-secondary">Inicio</Link>
           </li>

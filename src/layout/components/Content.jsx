@@ -33,10 +33,11 @@ export const Content = () => {
   const handleEliminar = (id) => setProductos(productos.filter(p => p.id !== id));
 
   return (
-<div className="container-fluid py-4" style={{ backgroundColor: '#f0f0f0', minHeight: '100vh', padding: '50px' }}>      <div className="row px-3">
+    <div className="container-fluid py-4" style={{ backgroundColor: 'rgb(236, 232, 232)', minHeight: '100vh' }}>
+      <div className="row px-2 px-md-3">
 
         {/* Lista de productos */}
-        <div className="col-md-8">
+        <div className="col-12 col-md-8 mb-4">
           <div className="d-flex justify-content-between align-items-center mb-3">
             <h5 className="fw-bold mb-0">Productos</h5>
             <small className="text-muted">Mostrando {productos.length} productos</small>
@@ -78,9 +79,9 @@ export const Content = () => {
         </div>
 
         {/* Formulario agregar */}
-        <div className="col-md-4">
+        <div className="col-12 col-md-4">
           <div className="card shadow-sm">
-            <div className="card-header bg-secondary text-white">
+            <div className="card-header">
               + Agregar producto
             </div>
             <div className="card-body">

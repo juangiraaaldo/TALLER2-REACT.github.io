@@ -17,7 +17,7 @@ export const Props = () => {
         <p>React Props are like function arguments in JavaScript and attributes in HTML.In React, you can send the content between the opening and closing tags of a component,
           to another component. This can be accessed in the other component using the props.children property.</p>
 
-        <div className='d-flex gap-5 p-4 justify-content-center align-items-center'>
+        <div className='d-flex flex-wrap gap-5 p-4 justify-content-center align-items-center'>
           {personas.map((persona)=>(
             <Persons
               key={persona.id}

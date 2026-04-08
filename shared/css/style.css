@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgb(39, 39, 39) !important;
+}
+
+.navbar a {
+    color:aliceblue !important;
+}
+
+a:hover{
+    color: rgb(226, 43, 165) !important;
+}
+
+.nav-link.active{
+    color: rgb(226, 43, 165) !important;
+}
+
+/* Color del borde al hacer focus en el input */
+.form-control:focus {
+  border-color: rgb(226, 43, 165) !important;
+  box-shadow: 0 0 0 0.25rem rgba(226, 43, 165, 0.25) !important;
+}
+
+/* Botón al pasar el mouse */
+#SearchBtn:hover {
+  background-color: rgb(190, 30, 140) !important;
+  border-color: rgb(190, 30, 140) !important;
+  color: aliceblue !important;
+}
+
+
+
+/*CONTENT*/
+
+.card-header{
+    background-color: rgb(39, 39, 39) !important;
+    color: aliceblue !important;
+}
+
+
+footer{
+    background-color: rgb(39, 39, 39) !important;
+}
+
+.nav-link,.text-center{
+    color: aliceblue !important;
+}
